@@ -8,7 +8,7 @@ app.listen(port)
 
 app.get("/", (req, resp) => {
 
-    resp.send("Pagina inicial")
+    resp.send("Hola Thi!")
 })
 
 console.log(`escuchando en puerto ${port}`)
